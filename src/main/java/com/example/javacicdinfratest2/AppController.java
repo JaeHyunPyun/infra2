@@ -58,7 +58,7 @@ public class AppController {
 
     @GetMapping("/")
     public String hello() {
-        return "new cicd test succeed! hello javacicdinfratest2";
+        return "test db connection";
     }
 
     @GetMapping("/api/login")
