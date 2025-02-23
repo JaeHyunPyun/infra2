@@ -37,7 +37,7 @@ public class AppController {
         String loc ="";
         try (Connection connection = dataSource.getConnection()) {
             // SQL 쿼리 실행
-            String sql = "SELECT deptno, dname, loc FROM dept2 WHERE deptno = 30";
+            String sql = "SELECT deptno, dname, loc FROM dept2 WHERE deptno = 11";
             try (Statement statement = connection.createStatement();
                 ResultSet resultSet = statement.executeQuery(sql)) {
 
